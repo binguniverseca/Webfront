@@ -1,0 +1,124 @@
+a:link {
+  text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+
+body {
+  
+   font-family: 'Candara', candara-light;
+   color:rgb(111, 149, 167);
+
+   
+}
+
+
+header{
+	margin-top: 100px;
+  color:rgb(111, 149, 167);
+  
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -160px; 
+  
+
+}
+
+header li {
+  padding: 0 20px;
+  margin: 0;
+  color:rgb(111, 149, 167);
+  display: inline;
+  font-size: 15px;
+
+}
+
+
+
+.jumbotron {
+  display: flex;
+  
+  align-items: center;
+  background-image: url('img/Home/Home page.jpg');
+  background-size: cover;
+  height: 450px;
+  width:100%;
+
+
+
+}
+
+.jumbotron h2 {
+  color: white;
+  font-size: 50px;
+
+  font-weight: normal;
+  font-family:Arial, Helvetica, sans-serif;
+
+
+  }
+
+
+.jumbotron h3 {
+
+  color: white;
+  font-size: 25px;
+  position: relative;
+ 
+  }
+
+.category {
+	display: inline;
+	margin:0;
+  position:relative;
+	
+}
+
+.logo
+ {
+	width: 300px;
+	height: 150px;
+	
+	padding-right: 50px;
+
+}
+
+div p {
+	text-align: center;
+	font-size: 50px;
+	margin-top: -115px;
+
+
+}
+
+figure a {
+  color: white;
+}
+
+
+
+
+footer ul {
+  margin-left: 500px;
+}
+
+footer li {
+   margin-right: 10px;
+   display: inline;
+   align-content: center;
+
+
+  }
+footer li img {
+  width: 28px;
+  height: 28px;
+  
+
+  
+}
+
