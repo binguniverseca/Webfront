@@ -1,0 +1,136 @@
+a:link {
+  text-decoration:none;
+  color: white;
+}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+body {
+   font-family: 'Candara', candara-light;
+   color: rgb(111, 149, 167);  
+}
+
+
+header{
+  
+  position: fixed;
+  left:150px;
+  height:30px;
+  top: -1px;
+  width:1200px;
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  padding: 0 20px;
+  color:rgb(111, 149, 167);
+  display: inline;
+  font-size: 15px;
+}
+
+.jumbotron {
+  display: flex;
+  position:relative;
+  align-items: center;
+  background-size: cover;
+  height: 300px;
+  width: 1200px;
+  background-image: url("img_work/work.jpg");
+  margin-left: 150px;
+  margin-right:150px;
+  margin-top: 30px;
+}
+
+.jumbotron div h1 {
+  color:white;
+  position:relative;
+  text-align: left;
+  font-size: 60px;
+  margin-left: 40px;
+}
+
+
+.accordion {
+  background-color: rgb(111, 149, 167);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  margin-left: 150px;
+  text-align: left;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+.active, .accordion:hover {
+  background-color: rgb(157, 198, 247);
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 15px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.main p {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.panel p {
+  font-size:16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+div li {
+  font-size: 15px;
+}
+
+
+div ul{
+  align-items: center
+}
+
+footer ul {
+  margin-left: 500px;
+}
+
+footer li {
+   margin-right: 10px;
+   display: inline;
+   align-content: center;
+  }
+
+footer li img {
+  width: 28px;
+  height: 28px;
+}
+
