@@ -5,71 +5,92 @@ a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
 body {
-   font-family: 'Candara', candara-light;
-   color: rgb(111, 149, 167);  
+  margin: 0;
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-header{
-	margin-top: 100px;
-}
 
 header nav {
   display: flex;
   justify-content: flex-end;
+  margin-top:-150px;
+  
 }
 
 header li {
   padding: 0 20px;
-  color:rgb(111, 149, 167);
+  color:white;
   display: inline;
   font-size: 15px;
 }
 
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-size: cover;
-  height: 400px;
-  width: 100%;
-  background-image: url("img_about/ZHAO.jpg");
-
+.masthead {
+    padding: 15em 0;
+    background-image: url("img_about/montreal.jpg");
+    background-size: cover;
+    height:500px;
+    background-repeat: no-repeat;
+    border-top: 1em solid #ffcf33;
 }
 
-.jumbotron div h1 {
-  color:black;
- 
+.masthead-heading {
+  font-size: 6em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  text-shadow: 1.5px 3px 0px #edc647;
+  color: #F7E199;
+  margin-top: -0.2em;
+
+}
+.masthead-intro {
+  font-size: 2em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  text-align: center;
+  color: #e5e5e5;
+  margin-bottom: 0.1em;
+}
+
+
+
+.intro,
+.where-Im-from,
+.more-about-me {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
   text-align: left;
-  margin-left: 600px;;
-  font-size: 50px;
-  
 }
 
-div h2 {
-  text-align: center;
-  font-size: 30px; 
+.bold {
+  font-weight: bold;
 }
 
-div h3 {
-  text-align: center;
+.intro > p,
+.where-Im-from > p,
+.more-about-me > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+section > h1 {
   font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-top: 30px;
 }
 
-div h4 {
-  text-align: center;
-  font-size: 30px; 
-}
-
-div h5 {
-  text-align: center;
-  font-size: 30px;
-}
-
-
-div p {
-  text-align: center;
-  font-size: 15px;
-  font-weight: normal;  
+.more-about-me > h2 {
+  font-size: 1.2em;
+  font-family: "Gentium Book Basic";
+  font-weight: bold;
+  color: #f7e199;
 }
 
 footer ul {
