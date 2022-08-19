@@ -1,69 +1,69 @@
 a:link {
-    text-decoration:none;}
-  a:visited {text-decoration:none;}
-  a:hover {text-decoration:underline;}
-  a:active {text-decoration:underline;}
+  text-decoration:none;
+}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+body {
+  margin: 0;
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top:-150px;
   
-  body {
-     font-family: 'Candara', candara-light;
-     color: rgb(111, 149, 167);  
-  }
+}
+
+header li {
+  padding: 0 20px;
+ 
+  display: inline;
+  font-size: 15px;
+}
+
+.masthead {
+    padding: 15em 0;
+    background-image: url("img_contact/banff.jpg");
+    background-size: cover;
+   
+    height:400px;
+    background-repeat: no-repeat;
+    border-top: 1em solid #ffcf33;
+}
+
+.masthead-heading {
+  font-size: 6em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  margin-top: -0.2em;
+
+}
+.masthead-intro {
+  font-size: 3em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  text-align: center;
+  color: #e5e5e5;
+  margin-bottom: 0.1em;
+  margin-top: 20px;
+}
   
-  
-  header{
-      margin-top: 100px;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  header li {
-    padding: 0 20px;
-    color:rgb(111, 149, 167);
-    display: inline;
-    font-size: 15px;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    padding-bottom: 100px;
-  }
-  
-  #contact {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .section-header {
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0;
-    font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-  }
-  
-  .contact-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    max-width: 840px;
-  }
-  
-  /* Left contact page */
+
   .form-horizontal {
-    /*float: left;*/
+    
     max-width: 400px;
     font-family: 'Lato';
     font-weight: 400;
+    margin:auto;
+    text-align:center;
   }
   
   .form-control, 
@@ -270,6 +270,8 @@ a:link {
   }
   footer ul {
     margin-left: 500px;
+    margin:auto;
+    text-align:center;
   }
   
   footer li {
