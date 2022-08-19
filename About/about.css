@@ -30,7 +30,7 @@ header li {
     padding: 15em 0;
     background-image: url("img_about/montreal.jpg");
     background-size: cover;
-    height:500px;
+    height:400px;
     background-repeat: no-repeat;
     border-top: 1em solid #ffcf33;
 }
@@ -95,6 +95,8 @@ section > h1 {
 
 footer ul {
   margin-left: 500px;
+  margin:auto;
+  text-align:center;
 }
 
 footer li {

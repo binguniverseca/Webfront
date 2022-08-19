@@ -212,6 +212,8 @@ transition:all 0.3s ease-in-out;
 }
 footer ul {
   margin-left: 500px;
+  margin:auto;
+  text-align:center;
 }
 
 footer li {
